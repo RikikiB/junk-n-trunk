@@ -1,0 +1,34 @@
+// .scene {
+//   width: 200px;
+//   height: 200px;
+//   perspective: 600px;
+// }
+// .cube {
+//   width: 100%;
+//   height: 100%;
+//   position: relative;
+//   transform-style: preserve-3d;
+//   position: absolute;
+//   width: 200px;
+//   height: 200px;
+//   transform: translateZ(-100px);
+// }
+
+// .front {
+//   transform: rotateY(0deg);
+// }
+// .right {
+//   transform: rotateY(90deg);
+// }
+// .back.show {
+//   transform: rotateY(180deg);
+// }
+// .left {
+//   transform: rotateY(-90deg);
+// }
+// .top {
+//   transform: rotateX(90deg);
+// }
+// .bottom {
+//   transform: rotateX(-90deg);
+// }

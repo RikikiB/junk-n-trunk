@@ -1,0 +1,38 @@
+.carousel {
+  color: #6a6364;
+  display: flex-row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 15%;
+  padding: 1%;
+  text-shadow: 2px 2px #000000;
+  font-size: 5%;
+}
+.pics1 {
+  height: 50vw;
+  width: 70vh;
+}
+.pics2 {
+  height: 50vw;
+  width: 70vh;
+}
+.pics3 {
+  height: 50vw;
+  width: 70vh;
+}
+.pics4 {
+  height: 50vw;
+  width: 70vh;
+}
+h3 {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 55%;
+  margin-top: 65%;
+}
+p {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 55%;
+  margin-top: 35%;
+}

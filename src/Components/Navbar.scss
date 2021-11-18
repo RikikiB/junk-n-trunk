@@ -1,0 +1,18 @@
+.nav {
+  // display: flex;
+  // flex-direction: end !important;
+  flex-grow: 1;
+  justify-content: space-between !important;
+  // position: relative;
+  // align-items: center;
+  // text-align: center;
+  // margin-right: 5%;
+  color: #1d1b1b;
+  font-size: 16px;
+  text-shadow: #979595;
+  margin-top: 60;
+  box-shadow: linear-gradient(#000000 #979595, #000000);
+}
+a:visited {
+  color: #1d1b1b;
+}
