@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import './Gallery.scss'
 import Junk from './junk1.jpeg'
 import Junk1 from './junk2.jpeg'
-import Junk2 from './Junk3.jpg'
+// import Junk2 from './Junk3.jpg'
 import Junk3 from './Junk4.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
 function Gallery() {
@@ -28,7 +28,7 @@ function Gallery() {
           </BootstrapCarousel.Caption>
         </BootstrapCarousel.Item>
         <BootstrapCarousel.Item>
-          <img className='pics3' src={Junk2} alt='Third slide' />
+          {/* <img className='pics3' src={Junk2} alt='Third slide' /> */}
           <BootstrapCarousel.Caption>
             <h3>Third slide label</h3>
             <p>
