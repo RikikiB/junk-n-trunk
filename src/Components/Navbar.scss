@@ -1,18 +1,19 @@
 .nav {
-  // display: flex;
+  display: flex;
   // flex-direction: end !important;
-  flex-grow: 1;
+  flex-grow: 4;
   justify-content: space-between !important;
   // position: relative;
   // align-items: center;
   // text-align: center;
   // margin-right: 5%;
-  color: #1d1b1b;
+  color: #797979;
   font-size: 16px;
-  text-shadow: #979595;
+  text-shadow: #9b9b9b;
   margin-top: 60;
-  box-shadow: linear-gradient(#000000 #979595, #000000);
+  font-weight: bold;
+  background-color: rgb(59, 59, 59);
 }
 a:visited {
-  color: #1d1b1b;
+  color: #878385;
 }

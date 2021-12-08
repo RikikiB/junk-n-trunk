@@ -8,6 +8,13 @@ import {
 import BootstrapNavbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import './Navbar.scss'
+// import Homeicon from 'home.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faHouse,
+  faInfoCircle,
+  faPhone,
+} from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {
   return (
@@ -17,14 +24,18 @@ function Navbar() {
       {/* <BootstrapNavbar.Collapse id='basic-navbar-nav'> */}
       <Nav className='nav'>
         <NavLink Link to='/'>
+          <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
           HOME
         </NavLink>
 
-        <NavLink to='/gallery'>GALLERY</NavLink>
+        <NavLink to='/about'>
+          <FontAwesomeIcon icon={faInfoCircle}></FontAwesomeIcon>ABOUT
+        </NavLink>
 
-        <NavLink to='/about'>ABOUT</NavLink>
-
-        <NavLink to='/contact'>CONTACT</NavLink>
+        <NavLink to='/contact'>
+          <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon>
+          CONTACT
+        </NavLink>
       </Nav>
       {/* </BootstrapNavbar.Collapse> */}
     </BootstrapNavbar>
